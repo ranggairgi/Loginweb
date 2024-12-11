@@ -1,0 +1,71 @@
+/* Background styling */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('pixel.jpg') no-repeat center center/cover; /* Gambar diatur memenuhi layar */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    color: #fff;
+}
+
+.login-card h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input-group-text {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    background: #6a11cb;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #2575fc;
+}
+
+a {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Jarak antara Remember me dan Forgot password */
+.d-flex.justify-content-between {
+    align-items: center;
+    gap: 10px; /* Menambahkan jarak antar elemen */
+}
